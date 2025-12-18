@@ -1,0 +1,65 @@
+\backgroundsetup
+{
+    scale=1,
+    angle=0,
+    opacity=1,
+    contents={\begin{tikzpicture}[remember picture,overlay]
+        \path [fill=Space] (-\paperwidth, 0.375\paperheight)rectangle (\paperwidth, \paperheight); 
+    \end{tikzpicture}}
+}
+\BgThispage
+
+\begin{A}
+\section{Topic A – Space, time and motion}
+\subsection{Subtopic A.1 – Kinematics}
+\question{A1}{11}{1}
+\subquestion{a}
+The total distance is given as $2.5+3.8=6.3\unit{km}$
+
+\subquestion{b}
+Displacement is a vector quantity, thus:
+\begin{align*}
+    \magnitude{\vector{2.5}{0}+\vector{0}{3.8}}&=\magnitude{\vector{2.5}{3.8}}\\
+    &=\sqrt{2.5^2+3.8^2}\approx\boxed{4.55\unit{km}}
+\end{align*}
+
+\subquestion{c}
+Since this can be set up as a right angle triangle, using trigenometry:
+$$
+    \tan\theta=\frac{o}{a}\leadsto\theta=\tan^{-1}\frac{2.5}{3.8}\approx33.3^\circ
+$$
+
+\question{A1}{11}{2}
+\subquestion{a}
+15 minutes corresponds to 90 degrees, or one quarter of the perimeter of the clock.
+Therefore the distance must be:
+$$
+    s=\frac{2\pi r}{4}=\frac{15\pi}{2}\approx23.6\unit{cm}
+$$
+The displacement however is the distance between the points $\point{0}{15}$ and $\point{15}{0}$, thus using Pythagora's theorem\footnote{$a^2+b^2=c^2$}:
+$$
+    s=\sqrt{15^2+15^2}=\sqrt{450}=21.2\unit{cm}
+$$
+
+\subquestion{b}
+Analagously to question a but for the 180 degrees resulting from 30 minutes:
+\begin{align*}
+    &s_{\text{distance}}=\frac{2\pi r}{2}=15\pi\approx47.1\unit{cm}\\
+    &s_{\text{displacement}}=\sqrt{0^2+30^2}=30\unit{cm}
+\end{align*}
+
+\question{A1}{12}{3}
+Since they are headed in completley oposite directions, $s_\text{Ada}+s_\text{Matt}=580\unit{m}$.
+Ada's speed of 20$\unit{km\,h^{-1}}$ is approximately $5.56\unit{m\,s^{-1}}$
+Since $\displaystyle s=\int v\dd{t}$:
+\begin{align*}
+    v_\text{Ada}t+v_\text{Matt}t&=580\\
+    5.56\times60+v_\text{Matt}\times60&=580\\
+    \therefore v_\text{Matt}&\approx4.11\unit{m\,s^{-1}}\equiv\boxed{14.8\unit{km\,h^{-1}}}
+\end{align*}
+
+\question{A1}{12}{4}
+$$
+    1\unit{ly}
+$$
+\end{A}

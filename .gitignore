@@ -1,0 +1,7 @@
+# Ignore everything except needed files
+*
+!.gitignore
+!A.tex
+!B.tex
+!main.tex
+!main.pdf
