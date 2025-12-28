@@ -16,11 +16,16 @@
 \newtcolorbox{B}{boxrule=0pt, colback=white, frame hidden, sharp corners, enhanced, borderline west={3pt}{0pt}{Particulate}, breakable=true}
 \newcommand{\question}[3]{\textbf{#1:P#2 Question #3}\newline}
 \newcommand{\subquestion}[1]{\textbf{#1)}}
+\newcommand{\subsubquestion}[1]{\textbf{#1)}}
 \newcommand{\magnitude}[1]{\left\lVert#1\right\rVert}
 \newcommand{\unit}[1]{\,[\mathrm{#1}]}
 \newcommand{\point}[2]{\langle#1\,,#2\rangle}
 \renewcommand{\familydefault}{qhv}
 \renewcommand{\vector}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
+\newcommand{\graphquestion}{\begin{center}
+    \color{gray}Note that graph question solutions are not yet done due to lack of time.
+\end{center}}
+\newcommand{\answer}[1]{\boxed{\textrm{#1}}}
 \definecolor{Title}{RGB}{255, 192, 64}
 \definecolor{Space}{RGB}{29, 128, 190}
 \definecolor{Particulate}{RGB}{37, 139, 83}
