@@ -297,4 +297,146 @@ The answer matching this is \answer{D}.
 \subquestion{b}
 \graphquestion
 
+\question{A1}{34}{19}
+If both projectiles reach the same height, that means that the vertical component of the initial velocity was the same, since:
+\begin{align*}
+    {u_1}_yt-\frac{1}{2}gt^2&=\max y={u_2}_yt-\frac{1}{2}gt^2\\
+    \implies{u_1}_y&={u_2}_y
+\end{align*}
+If the vertical component of the initial velocity is the same, then the time taken to reach the ground is the same.
+This is because both are experiencing the same gravitational pull.
+Thus the answer is \answer{B}.
+
+\question{A1}{34}{20}
+The horizontal distance travelled is proportional to the height $s\propto h$ since the time taken to hit the ground is proportional to the height $t_\text{final}\propto h$.
+The time taken to hit the ground $s_y=-h$, with 0 initial vertical velocity, can be computed as:
+\begin{align*}
+    -h&=0-\frac{1}{2}gt_\text{final}^2\\
+    \implies t_\text{final}&=\sqrt{\frac{2h}{g}}
+\end{align*}
+Note that the negative solution was discarded as it is physically impossible.
+Thus we derive that:
+$$
+    t_\text{final}\propto\sqrt{h}
+$$
+Then, we compute that horizontal distance travelled (with initial horizontal velocity $u$, with no or negligible air resistance) as:
+$$
+    s=ut+0
+$$
+Therefore, the final distance travelled is $s$ evaluated at $t_\text{final}$, meaning:
+$$
+    s\propto\sqrt{h}
+$$
+Thus to reach a distance of $2s$, we need a height of $4h$, since $\sqrt{4h}=2\sqrt{h}$.
+This means the answer is \answer{D}.
+
+\question{A1}{34}{21}
+Using $s=ut+\frac{1}{2}at^2$:
+\begin{align*}
+    s&=-4t-\frac{1}{2}gt^2\\
+    &=-4\times1.9-\frac{g}{2}(1.9)^2\approx-25.3\unit{m}
+\end{align*}
+This is the displacement of the object over that time, so the tower's height is $h=-s=25.3\unit{m}$.
+The closest answer is therefore \answer{D}.
+
+\question{A1}{34}{22}
+The time to hit the floor is given by, as derived in \textbf{A1:P34 Question 20}:
+$$
+    t_\text{final}=\sqrt{\frac{2h}{g}}
+$$
+The horizontal displacement is then given through $s=ut+\frac{1}{2}at^2$ (noting air resistance is negligible, providing 0 acceleration):
+\begin{align*}
+    s&=vt_\text{final}\\
+    &=v\sqrt{\frac{2h}{g}}
+\end{align*}
+The answer is therefore \answer{C}.
+
+\question{A1}{34}{23}
+\subquestion{a}
+The maximum height is reached when the vertical velocity is 0, since the changing of a sign changes the direction of motion, making the height of the ball strictly decrease post that point.
+Therefore, using $v=u+at$:
+\begin{align*}
+    0&=u_y-gt_\text{max}\\
+    u_y&=gt_\text{max}=0.9g\approx\boxed{8.84\unit{m\,s^{-1}}}
+\end{align*}
+
+\subquestion{b}
+Noting there is no air resistance, the horizontal velocity can be computed using $s=ut+\frac{1}{2}at^2$ as:
+\begin{align*}
+    16&=0.9u_x+0\\
+    \implies u_x&=\frac{16}{0.9}\approx17.8\unit{m\,s^{-1}}
+\end{align*}
+Using Pythagoras theorem, we get that the total initial velocity is:
+$$
+    u=\sqrt{u_x^2+u_y^2}=\sqrt{17.8^2+8.84^2}\approx\boxed{19.9\unit{m\,s^{-1}}}
+$$
+
+\subquestion{c}
+Solving the equation $u\sin\theta=u_y$ (or $u\cos\theta=u_x$) gives:
+\begin{align*}
+    \sin\theta&\approx\frac{8.84}{19.9}\\
+    \implies\theta&\approx\sin^{-1}\frac{8.84}{19.9}\approx0.4603\hdots\unit{rad}
+\end{align*}
+Converting to degrees (using $\theta_\text{deg}=\frac{180\theta_\text{rad}}{\pi}$):
+$$
+    \theta\approx\boxed{26.4^ \circ}
+$$
+
+\subquestion{d}
+Using $s=ut+\frac{1}{2}at^2$:
+\begin{align*}
+    \max h&=u_yt_\text{max}-\frac{1}{2}gt_\text{max}^2\\
+    &=8.84\times0.9-\frac{g}{2}0.9^2\approx\boxed{3.98\unit{m}}
+\end{align*}
+
+\question{A1}{34}{24}
+Since there is 0 initial vertical velocity, the time to reach the net is (using $s=ut+\frac{1}{2}at^2$):
+\begin{align*}
+    0.9-2.7&=0-\frac{1}{2}gt_\text{final}^2\\
+    \implies t_\text{final}&=\sqrt{\frac{2\times1.8}{g}}\qquad\text{(Negative solution not possible)}\\
+    &\approx0.605\unit{s}
+\end{align*}
+Then to derive the initial horizontal velocity (with assumed 0 acceleration), we use $s=ut+\frac{1}{2}at^2$ again:
+\begin{align*}
+    12&=u_xt_\text{final}+0\\
+    \implies u_x&\approx\frac{12}{0.605}\approx\boxed{19.8\unit{m\,s^{-1}}}
+\end{align*}
+
+\question{A1}{34}{25}
+\subquestion{a}
+The initial vertical velocity $u\sin\theta$ is approximately $0.628\unit{m\,s^{-1}}$.
+Then using $s=ut+\frac{1}{2}at^2$ and checking for approximate equality at $t=0.3\unit{s}$:
+\begin{align*}
+    -0.25&\approx0.628\times0.3-\frac{1}{2}g(0.3)^2\\
+    -0.25&\approx-0.2535\quad\color{Green}\checkmark
+\end{align*}
+
+\subquestion{b}
+\subsubquestion{i}
+The initial horizontal velocity $u\cos\theta$ is approximately $8.98\unit{m\,s^{-1}}$.
+Using $s=ut+\frac{1}{2}at^2$ with assumed 0 acceleration:
+$$
+    s\approx8.98\times0.3+0=\boxed{2.69\unit{m}}
+$$
+
+\subsubquestion{ii}
+Only the vertical velocity is changing (due to the assumed 0 horizontal acceleration).
+Therefore, using $v=u+at$:
+$$
+    v_\text{final}\approx0.628-0.3g=-2.32\unit{m\,s^{-1}}
+$$
+Then using Pythagoras theorem to calculate the total final velocity:
+$$
+    v=\sqrt{v_x^2+v_y^2}=\sqrt{8.98^2+(-2.32)^2}\approx\boxed{9.27\unit{m\,s^{-1}}}
+$$
+
+\subquestion{c}
+\subsubquestion{i}
+\graphquestion
+
+\subsubquestion{ii}
+\graphquestion
+
+\subsection{Subtopic A.2 – Forces and momentum}
+
 \end{A}
