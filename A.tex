@@ -862,4 +862,106 @@ Finally, since frictional force is defined as $\force_\mu=\mu_d\force_N$:
     \therefore\mu_d&=\frac{2.78}{19.0}\approx\boxed{0.146}
 \end{align*}
 
+\question{A2}{67}{20}
+\subquestion{a}
+For the static friction to support the book, $\mu_s\force_N\geq\force_g$.
+We choose the minimum ($\mu_s\force_N=\force_g$).
+The normal force is in this case the force $\force$ being applied to the book against the wall (since the normal force is the wall pushing back on the book).
+Since the book's weight ($\force_g$) and $\mu_s$ were given, we simply solve the equation:
+\begin{align*}
+    0.75\force&=12\\
+    \implies\force&=\frac{12}{0.75}=\boxed{16\unit{N}}
+\end{align*}
+
+\subquestion{b}
+\graphquestion
+
+\subquestion{c}
+The force of dynamic friction opposing the motion is given as:
+\begin{align*}
+    \force_\mu&=\mu_d\force_N\\
+    &=0.6\times10=6\unit{N}
+\end{align*}
+The resultant force $\force_R$ is therefore:
+\begin{align*}
+    \force_R&=\force_g-\force_\mu\\
+    &=12-6=6\unit{N}
+\end{align*}
+This is half of the original weight force, meaning that since the mass is constant, the acceleration is $\frac{g}{2}$.
+This is approximately:
+$$
+    \frac{g}{2}=\boxed{4.91\unit{m\,s^{-2}}}
+$$
+
+\question{A2}{72}{21}
+Since the skydiver cannot magically start falling upwards because of the parachute, the direction of the velcity remains constant.
+At $t_1$ however, the speed was increasing, meaning there was positive acceleration.
+At $t_2$, the oposite is true, meaning there was negative acceleration.
+Thus, the answer is $\answer{B}$.
+
+\question{A2}{72}{22}
+The terminal velocity is given by the formula:
+$$
+    v_t=\frac{(\rho_s-\rho_f)gV}{6\pi\eta r}
+$$
+Since $V=\frac{4}{3}\pi r^3$,
+$$
+    v_t\propto\frac{r^3}{r}\implies v_t\propto r^2
+$$
+Therefore, if the radius is 2 times larger, then the terminal velocity is $2^2=4$ times larger, making the answer \answer{C}.
+
+\question{A2}{72}{23}
+There are two forces acting on the ball, buoyancy $\force_a$ and drag force $\force_\delta$.
+The buoyancy force is given by Archimede's principle as:
+$$
+    \force_a=\rho_fgV
+$$
+where $\rho_f$ is the density of the fluid.
+Since $m=\rho_sV$ and $\rho_s=1.5\rho_f$:
+\begin{align*}
+    \force_a&=\rho_fg\frac{m}{1.5\rho_f}=\frac{mg}{1.5}\newton{2}\frac{\force_g}{1.5}
+\end{align*}
+The resultant force is zero (since there is no acceleration), and is given by:
+\begin{align*}
+    \force_R=0&=\force_g-\force_a-\force_\delta\\
+    \implies\force_\delta&=\force_a-\force_g\\
+    &=\frac{\force_g}{1.5}-\force_g\\
+    &=\frac{1.2}{1.5}-1.2=-0.4\unit{N}
+\end{align*}
+The magnitude of the drag force is therefore $0.4\unit{N}$, making the answer \answer{A}.
+
+\question{A2}{72}{24}
+\subquestion{a}
+Drag force $\force_\delta$ is proportional to speed whilst weight force and buoyancy are constant.
+Therefore, the drag force keeps increasing as the ball accelerates downwards until it reaches a velocity (the terminal velocity), in which all of the forces balance, and the ball experiences net zero force.
+This net zero means 0 acceleration, keeping the velocity at this point.
+
+\subquestion{b}
+\subsubquestion{i}
+Since $m=\rho V$ and $V=\frac{4}{3}\pi r^3$,
+\begin{align*}
+    m&=8000\times\frac{4}{3}\pi\times0.002^3\\
+    &\approx0.000268\unit{kg}
+\end{align*}
+The weight is then given by Newton's second law as:
+$$
+    \force_g\newton{2}mg\approx0.000268\times9.82\approx\boxed{2.63\times10^{-3}\unit{N}}
+$$
+
+\subsubquestion{ii}
+By Archimede's principle:
+\begin{align*}
+    \force_a&=\rho gV\\
+    &=920\times9.82\times\frac{4}{3}\pi\times0.002^3\\
+    &\approx\boxed{3.03\times10^{-4}\unit{N}}
+\end{align*}
+
+\subquestion{c}
+Using Stoke's law:
+\begin{align*}
+    v_t&=\frac{(\rho_s-\rho_f)gV}{6\pi\eta r}\\
+    &=\frac{(8000-920)\times9.82\times\frac{4}{3}\pi\times0.002^3}{6\pi\times8.4\times10^{-2}\times0.002}\\
+    &\approx\boxed{0.736\unit{m\,s^{-1}}}
+\end{align*}
+
 \end{A}
