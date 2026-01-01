@@ -1007,4 +1007,100 @@ Using $v^2=u^2+2as$:
 Because it assumes constant acceleration (and force) from the average force.
 This is not realistic, and the acceleration likely varies over time as the pellet penetrates the block.
 
+\question{A2}{77}{27}
+The area under the graph is the change in momentum.
+Therefore:
+\begin{align*}
+    \Delta p&=\frac{(1200-0)(3.5-2)\times10^{-3}}{2}+\frac{(1200-0)(7-3.5)\times10^{-3}}{2}\\
+    &=3\unit{N\,s}
+\end{align*}
+Since $p=mv$, the change in velocity is thus:
+$$
+    \Delta v=\frac{\Delta p}{m}=\frac{3}{0.15}=20\unit{m\,s^{-1}}
+$$
+Thus (noting that since it's a change in direction, we let the original 8$\unit{m\,s^{-1}}$ be negative):
+$$
+    v_\text{post hit}=20-8=12\unit{m\,s^{-1}}
+$$
+Consequently, the answer is \answer{B}.
+
+\question{A2}{77}{28}
+Let $x$ be the height of one unit square.
+Each square has a width of $10^{-2}$
+The change in momentum is (very approximately by counting rough squares) then:
+$$
+    \Delta p=10\times(x\times10^{-2})=\frac{x}{10}
+$$
+Since the change in momentum was 10$\unit{N\,s}$, we let $x\approx100$.
+Finally, because $\force_\text{max}$ is 5 units up, $\force_\text{max}\approx5x=500\unit{N}$.
+The closest answer is therefore \answer{D}.
+
+\question{A2}{77}{29}
+\subquestion{a}
+\subsubquestion{i}
+The change in momentum between $t=0$ and $0.5\unit{s}$ is $0.75\unit{N\,s}$.
+The only force acting to change this is the weight force.
+Therefore:
+$$
+    \force_g=\frac{\Delta p}{t}=\frac{0.75}{0.5}=\boxed{1.5\unit{N}}
+$$
+
+\subsubquestion{ii}
+Using $v=u+at$:
+$$
+    v=0+0.5g\approx\boxed{4.91\unit{m\,s^{-1}}}
+$$
+
+\subquestion{b}
+The change in momentum during the contact (between $t=0.5$ and $0.6\unit{s}$) is $0.5-(-0.75)=1.25\unit{N\,s}$.
+Dividing this by the contact time of $0.1\unit{s}$ gives us the average force:
+$$
+    \bar{\force}=\frac{1.25}{0.1}=\boxed{12.5\unit{N}}
+$$
+
+\question{A2}{79}{30}
+\subquestion{a}
+\subsubquestion{i}
+The thrust force is given by $\force_\tau=\dot{m}v_e$ where $\displaystyle\dot{m}=\dv{m}{t}$ is the rate of change of the mass expulsion and $v_e$ the velocity of the explused material.
+Therefore:
+$$
+    \force_\tau=2.8\times3.6\times10^3\approx\boxed{10000\unit{N}}
+$$
+
+\subsubquestion{ii}
+Using Newton's second law:
+$$
+    a\newton{2}\frac{\force_\tau}{m}=\frac{10000}{4\times10^4}=\boxed{0.25\unit{m\,s^{-2}}}
+$$
+
+\subquestion{b}
+The thrust force remains constant (since $\dot{m}$ and $v_e$ are by design constant), but the mass of the rocket decreases.
+By Newton's second law:
+$$
+    a\stackrel{\text{N2}}{\propto}\frac{1}{m}
+$$
+If $m$ therefore decreases, the acceleration increases.
+When the rocket then stops thrusting, the acceleration becomes $g$.
+
+\subquestion{c}
+The final mass is $m=40000-2.8\times25\times60=35800\unit{kg}$.
+Therefore the final acceleration is:
+$$
+    a\newton{2}\frac{\force_\tau}{m}=\frac{10000}{35800}\approx0.279\unit{m\,s^{-1}}
+$$
+Using $v=\bar{a}t$:
+$$
+    v=\frac{0.25+0.279}{2}\times25\times60\approx\boxed{397\unit{m\,s^{-1}}}
+$$
+Note that this answer differs from the one given in the answer sheeet provided by Oxford.
+However, there ansewr only seems to use the final acceleration, which would assume constant acceleration across, when the question before states clearly this is not the case.
+I therefore decided to keep my answer which I believe to be more correct.
+
+\subquestion{d}
+Using $\force_\tau=\dot{m}v_e$:
+\begin{align*}
+    65000&=3.6\times10^3\times\dot{m}\\
+    \implies\dot{m}&=\frac{65000}{3600}\approx\boxed{18.1\unit{kg\,s^{-1}}}
+\end{align*}
+
 \end{A}
