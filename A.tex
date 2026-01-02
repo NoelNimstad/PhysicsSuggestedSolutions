@@ -1245,4 +1245,75 @@ For the after energy:
 \end{align*}
 We thus conclude the kinetic energies are not equal before and after the collision (and that it can't be a rounding error), meaning the collision was not elastic.
 
+\question{A2}{88}{37}
+\subquestion{a}
+The kinetic energy before the collision was:
+$$
+    {E_k}_\text{before}=\frac{1}{2}\times m\times200^2=20000m
+$$
+The kinetic energy after the collision was:
+$$
+    {E_k}_\text{after}=\frac{1}{2}\times m\times160^2+\frac{1}{2}\times4m\times v^2
+$$
+Equating the two since energy is conserved:
+\begin{align*}
+    {E_k}_\text{before}&={E_k}_\text{after}\\
+    \implies20000m&=12800m+2mv^2\\
+    \implies v&=\sqrt{\frac{7200}{2}}=\boxed{60\unit{m\,s^{-1}}}
+\end{align*}
+
+\subquestion{b}
+The vertical component of the momentum of the red body must be equal to, but opposing, the vertical component of the blue body, since the original momentum has no vertical component.
+Thus:
+\begin{align*}
+    160m\sin82.8^\circ&=60\times4m\times\sin\theta\\
+    \implies\theta&=\sin^{-1}\left(\frac{160}{60\times4}\times\sin82.8^\circ\right)\\
+    &\approx\boxed{41.4^\circ}
+\end{align*}
+
+\question{A2}{90}{38}
+\subquestion{a}
+First we convert the volume flow rate of $9\unit{L\,\text{minute}^{-1}}$ to cubic metres per second as as $1.5\times10^{-4}\unit{m^3\,s^{-1}}$.
+The mass flow rate is then the volume flow rate times the density of water:
+$$
+    \dot{m}=1.5\times10^{-4}\times1000=0.15\unit{kg\,s^{-1}}
+$$
+Note that the rate of change of mass is equal to the infinitesimal volume of water moving through the hose per unit second times the density of the water.
+We calculate this infinitesimal volume as the cross-sectional area times the infinitesimal distance travelled:
+$$
+    \dv{m}{t}=\rho_w\times A\times\dv{s}{t}
+$$
+Note that since $v\stackrel{\Delta}{=}\dv{s}{t}$ (noting that $r=\frac{d}{2}$):
+\begin{align*}
+    v&=\frac{\dot{m}}{A\rho_w}\\
+    &=\frac{0.15}{\pi\times0.007^2\times1000}\\
+    &\approx\boxed{0.974\unit{m\,s^{-1}}}
+\end{align*}
+
+\subquestion{b}
+Using the formula derived in \subquestion{a} for the velocity pre-nozzle:
+\begin{align*}
+    v&=\frac{\dot{m}}{A\rho_w}\\
+    &=\frac{0.15}{\frac{\pi\times0.007^2}{12}\times1000}\\
+    &\approx11.7\unit{m\,s^{-1}}
+\end{align*}
+Using the formula $\Delta p=\dot{m}(v-u)$:
+\begin{align*}
+    \Delta p&=0.15\times(11.7-0.974)\\
+    &\approx0.15\times10.7\approx\boxed{1.61\unit{N\,s}}
+\end{align*}
+
+\subquestion{c}
+Since the change in momentum is non-zero, a force is exerted by the water on the hose.
+The force will want to accelerate the hose, so to keep it stationary one must apply a force to the hose.
+
+\question{A2}{92}{39}
+\subquestion{a}
+The lift force has to oppose the weight force of the weight force, thus the magnitude of the two are equal.
+Consequently:
+\begin{align*}
+    \force_l=\force_g&=3\times10^3\times9.82\\
+    &\approx\boxed{29500\unit{N}}
+\end{align*}
+
 \end{A}
