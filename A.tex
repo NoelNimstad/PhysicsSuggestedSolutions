@@ -1345,4 +1345,184 @@ This means:
     \implies u&\approx\sqrt{\frac{3\times10^3\times(g+1.2)}{1.2\times95}}\approx\boxed{17.0\unit{m\,s}}
 \end{align*}
 
+\question{A2}{92}{40}
+\subquestion{a}
+Using Newton's second law we get that:
+$$
+    a\newton{2}\frac{\force}{m}=\frac{6000}{64}
+$$
+Then using $v=u+at$ we can figure out the time needed to produce this worst-case scenario (converting $\unit{hm\,h^{-1}}$ to $\unit{m\,s^{-1}}$ by dividing by 3.6):
+$$
+    t=\frac{\frac{45}{3.6}\times64}{6000}=\boxed{0.1\bar{3}\unit{s}}
+$$
+
+\subquestion{b}
+Using $s=ut+\frac{1}{2}at^2$ (noting that the acceleration acts in the oposite direction of the motion):
+\begin{align*}
+    s&=\frac{45}{3.6}\times0.1\bar{3}-\frac{1}{2}\times\frac{6000}{64}\times0.1\bar{3}^2\\
+    &\approx\boxed{0.833\unit{m}}
+\end{align*}
+
+\question{A2}{96}{41}
+\subquestion{a}
+One revolution around the sun is $\theta=2\pi\unit{rad}$, and then since we know one year is $365.25\unit{days}$, we can convert this in to seconds:
+$$
+    t_\text{orbit}=365.25\times24\times60\times60\approx3.16\times10^7\unit{s}
+$$
+Therefore the angular velocity is:
+$$
+    \omega=\frac{\theta}{t_\text{orbit}}=\frac{2\pi}{3.16\times10^7}\approx\boxed{1.99\times10^{-7}\unit{rad\,s^{-1}}}
+$$
+
+\subquestion{b}
+The circumference of earth's orbit is:
+$$
+    P=2\pi\times1.5\times10^{11}=3\pi\times10^{11}\unit{m}
+$$
+Thus, using the $t_\text{orbit}$ determined in \subquestion{a}, the speed is:
+$$
+    v=\frac{P}{t_\text{orbit}}\approx\frac{3\pi\times10^{11}}{3.16\times10^7}\approx\boxed{2.98\times10^4\unit{m\,s^{-1}}}
+$$
+
+\question{A2}{96}{42}
+\subquestion{a}
+If the blades make 670 revolutions in one minute, then:
+$$
+    \omega=\frac{670}{60}\approx11.2\unit{Hz}
+$$
+Knowing that one revolution is $2\pi\unit{rad}$:
+$$
+    \omega\approx\boxed{70.4\unit{rad\,s^{-1}}}
+$$
+
+\subquestion{b}
+Using the formula $v_\text{tip}=\omega r$:
+$$
+    v_\text{tip}\approx70.4\times0.16\approx\boxed{11.3\unit{m\,s^{-1}}}
+$$
+
+\question{A2}{97}{43}
+Using the formula $a=\omega^2r$, we deduce:
+$$
+    a\propto r
+$$
+Therefore, the ratio is computed as (knowing both have the same angular speed):
+$$
+    \frac{a_P}{a_Q}=\frac{R}{\frac{R}{2}}=2
+$$
+Thus, the answer is \answer{C}.
+
+\question{A2}{97}{44}
+\subquestion{a}
+Since the rotation frequency is 5$\unit{Hz}$:
+$$
+    t=\frac{1}{5}=0.2\unit{s}
+$$
+The circumference of a neutron star is:
+$$
+    P=2\pi\times10^4\unit{m}
+$$
+Thus, the speed is:
+$$
+    v=\frac{P}{t}=\frac{2\pi\times10^4}{0.2}=\pi\times10^5\approx\boxed{3.14\times10^5\unit{m\,s^{-1}}}
+$$
+
+\subquestion{b}
+Using the formula $a=\frac{v^2}{r}$:
+$$
+    a\approx\frac{\qty(3.14\times10^5)^2}{10^4}\approx\boxed{9.86\times10^6\unit{m\,s^{-2}}}
+$$
+
+\question{A2}{98}{45}
+\subquestion{a}
+We first convert the angular speed to $\unit{Hz}$ by dividing by 60:
+$$
+    \omega=\frac{2}{60}=\frac{1}{30}\unit{Hz}
+$$
+This means the angular speed in $\unit{rad\,s^{-1}}$ is:
+$$
+    \omega=\frac{2\pi}{\frac{1}{30}}\approx\boxed{0.209\unit{rad\,s^{-1}}}
+$$
+
+\subquestion{b}
+Since the passangers move along the circumference of the Ferris wheel we use the formula $v=\omega r$, solving for $r$:
+$$
+    r=\frac{v}{\omega}=\frac{3}{0.209}\approx\boxed{14.4\unit{m}}
+$$
+
+\subquestion{c}
+Using $a=\frac{v^2}{r}$:
+$$
+    a\approx\frac{3^2}{14.4}=\boxed{0.625\unit{m\,s^{-2}}}
+$$
+
+\question{A2}{103}{46}
+\subquestion{a}
+Since there is no inclined plane, the normal force is equal to the weight force.
+For the box to stay stationary, the frictional force has to be greater than or equal to the centripetal force:
+\begin{align*}
+    \force_\mu&\geq\force_C\\
+    \implies mg\mu&\geq m\omega^2r
+\end{align*}
+Thus, solving for the maximum $\omega$ (when there is an equality rather than an inequality):
+$$
+    \omega\leq\sqrt{\frac{g\mu}{r}}\approx\sqrt{\frac{9.82\times0.7}{0.3}}\approx\boxed{4.79\unit{rad\,s^{-1}}}
+$$
+
+\subquestion{b}
+Using $\theta=\omega t+\frac{1}{2}\alpha t^2$ (there is no acceleration in this problem), and solving for $t$:
+$$
+    t=\frac{\theta}{\omega}\approx\frac{2\pi}{4.79}\approx\boxed{1.31\unit{s}}
+$$
+
+\question{A2}{103}{47}
+Using $a=\frac{v^2}{r}$ and solving for $r$, setting $a=9g$:
+$$
+    r=\frac{v^2}{a}\approx\frac{280^2}{9\times9.82}\approx\boxed{887\unit{m}}
+$$
+
+\question{A2}{103}{48}
+\subquestion{a}
+\graphquestion
+
+\subquestion{b}
+The vertical component of the normal force, which is $\theta$ angular units from the horizontal, must balance the weight force completley.
+Thus:
+\begin{align*}
+    \force_N\sin\theta=\force_g&=mg\\
+    \implies\force_N&=\frac{mg}{\sin\theta}
+\end{align*}
+The only remaining unbalanced force is then the horizontal component of the normal force, meaning by Newton's second law, the acceleration of the marble is:
+\begin{align*}
+    a&\newton{2}\frac{\force_N\cos\theta}{m}=\frac{\frac{mg}{\sin\theta}\cos\theta}{m}\\
+    &=\frac{g\cos\theta}{\sin\theta}=\boxed{\frac{g}{\tan\theta}}
+\end{align*}
+
+\subquestion{c}
+\subsubquestion{i}
+Using $a=\frac{v^2}{r}$ and solving for $r$ gives (and using the expression for $a$ derived in \subquestion{a}):
+\begin{align*}
+    r&=\frac{v^2}{a}=\frac{v^2}{\frac{g}{\tan\theta}}\\
+    &\approx\frac{1.5^2}{\frac{9.82}{\tan28^\circ}}\approx\boxed{0.122\unit{m}}
+\end{align*}
+
+\subsubquestion{ii}
+What the question is really asking for is the normal force, since that is the force the bowl pushes against the marble with.
+The normal force was defined in \subquestion{a}:
+$$
+    \force_N=\frac{mg}{\sin\theta}=\frac{0.003\times9.82}{\sin28^\circ}\approx\boxed{6.28\times10^{-2}\unit{m}}
+$$
+
+\subquestion{d}
+Re-aranging $a=\omega^2r$ for $\omega$ yields:
+$$
+    \omega=\sqrt{\frac{a}{r}}
+$$
+Since $a=\frac{g}{\tan\theta}$ is constant:
+$$
+    \omega\propto\frac{1}{\sqrt{r}}
+$$
+Where $r$ is the radius of the path.
+We therefore conclude that as the balls slips down, and $r$ starts decreasing, $\omega$ will increase.
+
 \end{A}
