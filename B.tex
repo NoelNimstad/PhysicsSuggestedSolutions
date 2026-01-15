@@ -9,7 +9,272 @@
 }
 \BgThispage
 
+\newcommand{\SpecificHeatCapacityUnit}{J\,kg^{-1}\,K^{-1}}
+
 \begin{B}
 \section{Topic B – The particulate nature of matter}
 \subsection{Subtopic B.1 – Thermal energy transfers}
+\question{B1}{202}{1}
+\subquestion{a}
+The physical state (e.g. solid, liquid, gas) of an object varies with temperature.
+
+\subquestion{b}
+For the answer from \subquestion{a} you can't directly measure the temperature, only an esimate.
+For example, for water, if it's solid (ice), then we know the temperature is roughly 100$^\circ$.
+
+\question{B1}{204}{2}
+We first need to conver the celcius measurements to kelvin, which is done by:
+\begin{align*}
+    &T_0=100\unit{^\circ C}\approx100+273=373\unit{^\circ K}\\
+    &T_1=470\unit{^\circ C}\approx470+273=743\unit{^\circ K}
+\end{align*}
+The formula for the energy of a gas is given by:
+$$
+    E=\frac{3}{2}k_bT
+$$
+Thus:
+\begin{align*}
+    &E_0=\frac{3}{2}\times373\times k_b\\
+    &E_1=\frac{3}{2}\times743\times k_b=\frac{743}{373}E_0\approx2E_0
+\end{align*}
+The change in energy is therefore:
+$$
+    E_1-E_0=2E_0-E_0=E_0
+$$
+The answer is therefore \answer{A}.
+
+\question{B1}{204}{3}
+The gas has to be at the same temperature.
+Thus the energy of both the mixtures have the same average energies, given by:
+$$
+    E_k=\frac{3}{2}k_bT
+$$
+Equating this energy to the kinetic energy gives:
+\begin{align*}
+    E_k=\frac{3}{2}k_bT&=E_\text{kinetic}=\frac{1}{2}mv^2\\
+    \implies v=\sqrt{\frac{3k_bT}{m}}
+\end{align*}
+The crucial thing to note here is that:
+$$
+    v\propto\sqrt{\frac{1}{m}}
+$$
+Let the mass of the $\mathrm{O}_2$ sample be denoted $M$.
+The mass of the $\mathrm{N}_2$ sample would then be:
+$$
+    \frac{\text{mass of }\mathrm{O}_2}{\text{mass of }\mathrm{N}_2}=\frac{8}{7}\implies\text{mass of }\mathrm{N}_2=\frac{7M}{8}
+$$
+Therefore, the fraction of there average velocity is given as, using the previously defined proportionality:
+$$
+    \frac{\sqrt{\frac{1}{M}}}{\sqrt{\frac{1}{\frac{7M}{8}}}}=\sqrt{\frac{7M}{8M}}=\sqrt{\frac{7}{8}}
+$$
+The answer is thus \answer{B}.
+
+\question{B1}{209}{4}
+\subquestion{a}
+The molecules inside each liquid moves at different average velocities, given by their initial energy.
+The molecules then collide, transferring energy to each other, until the average velocity has evened out, which would make the average energy even out.
+At this point, if the average energies are equal, then the substance as a whole must have the same temperature, since:
+$$
+    E_k=\frac{3}{2}k_b\Delta T\implies E_k\not\propto m
+$$
+
+\subquestion{b}
+Using $Q=mc\Delta t$, we find:
+\begin{align*}
+    &\text{(metal) }Q=0.1c_m\times(90-30)=6c_m\\
+    &\text{(liquid) }Q=0.15c_m\times(30-20)=1.5c_l
+\end{align*}
+Thus, since the energy transfered must be equal:
+$$
+    6c_m=1.5c_l
+$$
+Dividing first by $c_m$ and then by $1.5$ gives us the ratio we want:
+$$
+    \frac{c_l}{c_m}=\frac{6}{1.5}=4
+$$
+The answer is therefore \answer{B}.
+
+\question{B1}{209}{5}
+Note that since the samples are of the same material, the specific heat capacity $c$ is the same.
+Therefore, equating the energy transfered in $Q=mc\Delta T$:
+\begin{align*}
+    0.6c\times(30-10)&=mc\times(40-30)\\
+    \implies m&=0.6\times\frac{20}{10}=1.2\unit{kg}
+\end{align*}
+The answer is consequently \answer{D}.
+
+\question{B1}{209}{6}
+Using $Q=mc\Delta T$:
+\begin{align*}
+    8300&=0.3c\times60\\
+    \implies c&=\frac{8300}{0.3\times60}\approx\boxed{461\unit{\SpecificHeatCapacityUnit}}
+\end{align*}
+
+\question{B1}{209}{7}
+Noting again that the energy transfered is equal, we see that (uising $Q=mc\Delta t$):
+\begin{align*}
+    920m\times(87-20)&=mc\times(250-87)\\
+    \implies c&=\frac{920\times67}{163}\approx\boxed{378\unit{\SpecificHeatCapacityUnit}}
+\end{align*}
+
+\question{B1}{209}{8}
+\subquestion{a}
+Using $Q=mc\Delta t$:
+\begin{align*}
+    640&=0.08\times127\times\Delta T\\
+    \implies\Delta T&=\frac{640}{0.08\times127}\approx63.0\unit{^\circ K}
+\end{align*}
+Thus, the final temperature is:
+$$
+    T_\text{final}=T_0+\Delta T\approx22+63=\boxed{85\unit{^\circ C}}
+$$
+
+\subquestion{b}
+We use and equate $Q=mc\Delta T$ for the two samples (using the specific heat capacity of water given by the book):
+\begin{align*}
+    0.08\times127\times\Delta T_\text{ball}&=0.16\times4200\times\Delta T_\text{water}\\
+    \implies\frac{\Delta T_\text{water}}{\Delta T_\text{ball}}&=\frac{0.08\times127}{0.16\times4200}\approx0.0151
+\end{align*}
+
+\question{B1}{209}{9}
+\subquestion{a}
+The total energy transfered is given by:
+$$
+    Q=Pt
+$$
+Therefore, using $Q=mc\Delta T$:
+\begin{align*}
+    2200t&=0.9\times4200\times(95-20)\\
+    \implies t&=\frac{0.9\times4200\times75}{2200}\approx\boxed{129\unit{s}}
+\end{align*}
+
+\subquestion{b}
+The extra energy supplied over what is needed is given as:
+$$
+    Q=2200\times150-2200\times120=2200(150-129)=2200\times21
+$$
+Thus, by the definition of power as $\displaystyle P=\frac{Q}{t}$ means:
+$$
+    P=\frac{2200\times21}{150}=\boxed{308\unit{W}}
+$$
+
+\question{B1}{209}{10}
+Using $Q=mc\Delta T$ we determine the power transfered over 1 minute as:
+$$
+    Q=0.5\times4200\times35=73500
+$$
+Then, dividing by the time in one minute, we determine the power (energy transferd per unit time):
+$$
+    P=\frac{Q}{60}=\frac{73500}{60}\approx\boxed{1230\unit{W}}
+$$
+
+\question{B1}{213}{11}
+Since water has a relatively high specific heat capacity, it absorbs more energy before heating up.
+Therefore, the energy needed to heat up the environment is greater, making it heat up slower since the energy transfered to the environment is mostly constant.
+
+\question{B1}{213}{12}
+\subquestion{a}
+Using $Q=mL$:
+$$
+    Q=0.05\times330\times1000=16500=\boxed{16.5\unit{kJ}}
+$$
+
+\subquestion{b}
+The water needs to transfer as much energy as was computed in \subquestion{a} to completley melt the ice.
+Therefore, using $Q=mc\Delta T$:
+\begin{align*}
+    16500&=4200m\times20\\
+    \implies m&=\frac{16500}{4200}\times\frac{1}{20}\approx\boxed{0.196\unit{kg}}
+\end{align*}
+
+\subquestion{c}
+It will be a mixture of ice and water at 0$\unit{^\circ C}$.
+
+\question{B1}{213}{13}
+\subquestion{a}
+If the ice is at 0, then it only undergoes freezing (meaning we use the latent heat capacity $\displaystyle Q=mL$), meaning:
+\begin{align*}
+    m_\text{water}\times c_\text{water}\times(30-10)&=m\times330000\\
+    \implies 0.5\times4200\times20&=330000m\\
+    \implies m&=\frac{2100\times20}{330000}\approx\boxed{0.127\unit{kg}}
+\end{align*}
+
+\subquestion{b}
+Now the energy transfered comes not only from the latent heat capacity, but the specific heat capacity as well.
+This is because the ice first has to reach 0 degrees before it can start changing phase.
+Thus we sum the energy contributions as:
+\begin{align*}
+    m_\text{water}\times c_\text{water}\times(30-10)&=m\times330000+m\times c_\text{water}\times(0-(-18))\\
+    \implies 0.5\times4200\times20&=330000m+4200\times18\times m\\
+    \therefore m&=\frac{42000}{330000+4200\times18}\approx\boxed{0.104\unit{kg}}
+\end{align*}
+
+\question{B1}{213}{14}
+
+\subsection{Subtopic B.2 – Greenhouse effect}
+\question{B2}{235}{1}
+Using $P=eA\sigma T^4$:
+\begin{align*}
+    1100&=0.9\times1.4\times\sigma\times T^4\\
+    \implies T&=\sqrt{\frac{1100}{0.9\times1.4\times5.67\times10^{-8}}}\approx\boxed{352\unit{K}}
+\end{align*}
+
+\question{B2}{235}{2}
+
+\question{B2}{235}{3}
+\subquestion{a}
+Using $P=eA\sigma T^4$:
+$$
+    P=0.75\times0.15^2\times6\times\sigma\times(273.15)^4\approx\boxed{32.0\unit{W}}
+$$
+
+\subquestion{b}
+Differentiating $Q=mc\Delta T$ with respect to $t$ for some infinitesimal $\Delta T$, noting that $\displaystyle\dv{Q}{t}=P$, gives us:
+$$
+    \dv{Q}{t}=P=mc\dv{T}{t}
+$$
+Thus, using the data given:
+\begin{align*}
+    \dv{T}{t}=\frac{P}{mc}\approx\frac{32.0}{28\times380}\approx0.00301=\boxed{3.01\times10^{-3}\unit{K\,s^{-1}}}
+\end{align*}
+
+\subquestion{c}
+There are more ways of energy transfer than pure thermal radiation.
+For example, the contact of the box with the floor will transfer heat through thermal convection.
+
+\question{B2}{236}{5}
+Using $P=IA$, noting that the average intensity on earth is $1400\unit{J}$, we get that the input power is:
+$$
+    P_\text{in}=1400\times16=22400\unit{W}
+$$
+Thus, the power output is:
+$$
+    P_\text{out}=\eta P_\text{in}=0.1\times22400=\boxed{2240\unit{W}}
+$$
+
+\question{B2}{240}{7}
+Using $P=e\times IA$
+\begin{align*}
+    43000&=e\times900\times64\\
+    \implies e&=\frac{43000}{900\times64}\approx0.747
+\end{align*}
+Thus, since $a=1-e$:
+$$
+    a\approx1-0.747=\boxed{0.253}
+$$
+
+\question{B2}{243}{9}
+The particles can absorb the energy emitted and then they re-emit it in random directions per infinitesimal time unit.
+Thus some of this energy is returned to the earth's surface.
+
+\question{B2}{251}{11}
+
+\subsection{Subtopic B.4 – Thermodynamics}
+\question{B4}{276}{1}
+Using $Q=\Delta U+W$ we get:
+$$
+    \Delta U=Q-W=30-50=-20\unit{J}
+$$
+The answer is therefore \answer{B}.
+
 \end{B}
